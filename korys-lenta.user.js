@@ -88,7 +88,7 @@
     btn = document.createElement('a');
     btn.id = BTN_ID;
     btn.textContent = 'LentaV3';
-    btn.title = 'Atidaryti LentaV2';
+    btn.title = 'Atidaryti LentaV3';
     btn.target = '_blank';
     btn.rel = 'noopener noreferrer';
 
