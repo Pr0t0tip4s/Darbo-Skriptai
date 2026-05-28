@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Korys -> LentaV3
+// @name         Korys -> Lenta V3
 // @namespace    cherryservers
-// @version      2.0.10
+// @version      3.0.5
 // @description  Lenta V3 integracija Koryje
 // @match        https://korys.cherryservers.com/*/server/*
 // @run-at       document-idle
@@ -87,7 +87,7 @@
 
     btn = document.createElement('a');
     btn.id = BTN_ID;
-    btn.textContent = 'LentaV2';
+    btn.textContent = 'LentaV3';
     btn.title = 'Atidaryti LentaV2';
     btn.target = '_blank';
     btn.rel = 'noopener noreferrer';
