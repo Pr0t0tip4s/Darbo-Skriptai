@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Korys -> LentaV3
 // @namespace    cherryservers
-// @version      3.0.5
+// @version      3.0.6
 // @description  Lenta V3 integracija Koryje
 // @match        https://korys.cherryservers.com/*/server/*
 // @run-at       document-idle
@@ -16,7 +16,7 @@
   const PLAN_INPUT_ID = 'default_plan_id';
   const LOCATION_SELECT_NAME = 'location';
   const BTN_ID = 'lentav2-link';
-  const LENTA_BASE = 'https://5.199.173.132/LentaV3/';
+  const LENTA_BASE = 'https://5.199.173.132/LentaV3/#';
 
   const LOCATION_CODE_MAP = {
     'Lithuania': 'lt',
